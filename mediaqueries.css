@@ -101,4 +101,7 @@
     text-align: justify;
     padding-bottom: 2.5rem;
   }
+  #Contact .title {
+    text-align: center;
+  }
 }
