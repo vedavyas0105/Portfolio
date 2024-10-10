@@ -122,13 +122,18 @@
   }
   .text-container {
     text-align: justify;
-    padding-bottom: 2.5rem;
+    /* padding-bottom: 2.5rem; */
   }
+
   #Contact .title {
     text-align: center;
   }
 
   #Contact .content-container {
     max-width: 100%;
+  }
+
+  #about .section__pic-container {
+    display: none;
   }
 }
