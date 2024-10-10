@@ -29,7 +29,7 @@ a,
 /*=============== VARIABLES CSS ===============*/
 /* :root { */
 /*===== Colors =====*/
---hue-color: 242;
+/* --hue-color: 242; */
 
 /* HSL Color Mode */
 --skin-color: hsl(342, 92%, 46%);
@@ -206,16 +206,10 @@ a:hover {
   text-underline-offset: 0.5rem;
 }
 
-.logo:hover {
-  /* cursor: default; */
-  /* color: rgb(85, 85, 85); */
-  /* text-decoration: none; */
-}
-
 /* HAMBURGER-MENU */
 
 #hamburger-nav {
-  display: none;
+  /* display: none; */
 }
 
 .hamburger-menu {
@@ -585,10 +579,10 @@ article .icon {
   height: 2.5rem;
 }
 
-footer {
+/* footer {
   height: 26vh;
   margin: 0 1rem;
-}
+} */
 
 footer p {
   text-align: center;
