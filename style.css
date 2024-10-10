@@ -116,6 +116,16 @@ a {
   display: flex;
 }
 
+.mail-icon {
+  font-size: 20px;
+}
+
+.home__arrow {
+  height: 40px;
+  width: 30px;
+  cursor: pointer;
+}
+
 .nav__list {
   display: flex;
   flex-direction: row-reverse;
