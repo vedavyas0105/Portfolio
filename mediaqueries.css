@@ -6,14 +6,27 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #desktop-nav,
+  #hamburger-nav {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
+  aside {
+    display: none;
+  }
   #hamburger-nav {
     display: flex;
+  }
+  .title {
+    text-align: center;
+  }
+  .section__text__p1 {
+    text-align: center;
   }
   #Experience,
   .expreience-details-container {
@@ -41,12 +54,22 @@
   .about-containers {
     margin-top: 0;
   }
+
+  #Contact .contact-info-upper-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #Contact,
   footer {
     height: 40vh;
+  }
+  aside {
+    display: none;
   }
   #profile {
     height: 83vh;
@@ -103,5 +126,9 @@
   }
   #Contact .title {
     text-align: center;
+  }
+
+  #Contact .content-container {
+    max-width: 100%;
   }
 }
