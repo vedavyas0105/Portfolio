@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <aside class="sidebar" id="sidebar">
-      <nav class="nav">
+    <aside class="sidebar">
+      <nav class="nav" id="home-nav">
         <div class="nav__menu">
           <div class="menu">
             <ul class="nav__list">
               <li class="nav__item">
-                <a onclick="location.href='#profile'" class="nav__link">Home</a>
+                <a onclick="location.href='#home-nav'" class="nav__link"
+                  >Home</a
+                >
               </li>
               <li class="nav__item">
                 <a onclick="location.href='#about'" class="nav__link">About</a>
@@ -40,8 +42,8 @@
       </nav>
     </aside>
     <nav id="desktop-nav">
-      <div class="logo">Portfolio</div>
-      <div>
+      <div class="logo" id="logo">Portfolio</div>
+      <div class="nav__links">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#Experience">Experience</a></li>
@@ -67,6 +69,7 @@
       </div>
     </nav>
     <section id="profile">
+      <!-- <div class="main-heading">Portfolio</div> -->
       <div class="section__pic-container">
         <img
           src="./assets/pixelcut-export.png"

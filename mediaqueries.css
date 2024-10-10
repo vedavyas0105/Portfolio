@@ -1,14 +1,25 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin: 6rem;
+    height: fit-content;
+    margin-bottom: 10rem;
   }
   .about-containers {
     flex-wrap: wrap;
   }
-  #desktop-nav,
+  #desktop-nav .nav-links,
   #hamburger-nav {
     display: none;
+  }
+
+  #about .text-container {
+    padding-bottom: 2rem;
+  }
+  footer p {
+    padding-bottom: 4rem;
+  }
+
+  #desktop-nav {
+    height: 5vh;
   }
 }
 
