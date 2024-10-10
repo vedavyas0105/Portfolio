@@ -317,6 +317,7 @@ section {
 
 .section__text__p1 {
   text-align: start;
+  font-size: 1.5rem;
 }
 
 .section__text__p2 {
@@ -550,10 +551,10 @@ article .icon {
   cursor: default;
 }
 
-.email-icon {
-  height: 2.5rem;
-}
-
 footer p {
   text-align: center;
+}
+
+.footer__span {
+  font-weight: bold;
 }
