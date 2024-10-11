@@ -619,3 +619,8 @@ form textarea {
 #button1 {
   background-color: rgb(101, 129, 189);
 }
+
+.shadow-container {
+  box-shadow: 5px 5px 10px #555;
+  filter: drop-shadow(5px 5px 10px #555);
+}

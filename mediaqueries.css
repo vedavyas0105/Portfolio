@@ -35,6 +35,10 @@
     position: relative;
     bottom: 6rem;
   }
+
+  #button2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
