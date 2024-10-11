@@ -497,7 +497,8 @@
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact <span class="special-color">Me</span></h1>
       <div class="form-container">
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c16bc071-3dba-43ab-b313-267fcea90ced">
           <input type="text" id="name" placeholder="Your Name*" />
           <input type="email" id="eamil" placeholder="Your MailId*" />
           <input type="number" id="phone" placeholder="Phone Number*" />
@@ -534,6 +535,7 @@
       </p>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

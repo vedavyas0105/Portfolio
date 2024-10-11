@@ -12,3 +12,15 @@ const typed = new Typed(".multiple-text", {
   backDelay: 600,
   loop: true,
 });
+
+// function sendEmail() {
+//   Email.send({
+//     Host: "smtp.gmail.com",
+//     Username: "vvyas.b@gmail.com",
+//     Password: "#99VG9YPGv",
+//     To: "vvyas.b@gmail.com",
+//     From: document.getElementById("email").value,
+//     Subject: "New Enquiry",
+//     Body: "And this is the body",
+//   }).then((message) => alert(message));
+// }
