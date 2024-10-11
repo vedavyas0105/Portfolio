@@ -215,8 +215,17 @@
 
   footer p {
     position: relative;
-    bottom: -2rem;
+    bottom: -3rem;
     padding-bottom: 1.5rem;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    padding-top: 3rem;
   }
 }
 
