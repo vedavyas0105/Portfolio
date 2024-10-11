@@ -622,5 +622,5 @@ form textarea {
 
 .shadow-container {
   box-shadow: 5px 5px 10px #555;
-  filter: drop-shadow(5px 5px 10px #555);
+  /* filter: drop-shadow(5px 5px 10px #555); */
 }
