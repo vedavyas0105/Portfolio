@@ -553,6 +553,8 @@ article .icon {
 
 footer p {
   text-align: center;
+  position: relative;
+  bottom: -4rem;
 }
 
 .footer__span {
@@ -561,4 +563,49 @@ footer p {
 
 .special-color {
   color: rgb(143, 135, 209);
+}
+
+.form-container {
+  max-width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* padding: 2vw 4vw; */
+  width: 70%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 15px;
+  width: 150px;
+  color: #fff;
+  background-color: #ff5361;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 15px;
+  margin: 20px auto;
+}
+
+form textarea {
+  font-family: "Poppins", sans-serif;
 }

@@ -14,22 +14,26 @@
   #about .text-container {
     padding-bottom: 2rem;
   }
-  footer p {
-    padding-bottom: 4rem;
-  }
 
   #desktop-nav {
     height: 5vh;
   }
 
-  .home__arrow {
+  /* .home__arrow {
     width: 40px;
-  }
+  } */
 
   .arrow__container {
+    display: none;
+  }
+
+  .form-container {
+    padding-top: 5rem;
+  }
+
+  footer p {
     position: relative;
-    bottom: -12rem;
-    padding-bottom: 10px;
+    bottom: 6rem;
   }
 }
 
@@ -88,6 +92,16 @@
     bottom: -1.75rem;
     padding-bottom: 10px;
   }
+
+  .form-container {
+    padding-top: 2rem;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -2rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -112,44 +126,55 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+
   .contact-info-container {
     margin: 0;
   }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
+
   .title {
     font-size: 2rem;
     text-align: center;
   }
+
   .section__text__p1 {
     text-align: center;
   }
+
   .text-container {
     text-align: justify;
     /* padding-bottom: 2.5rem; */
@@ -166,8 +191,10 @@
   #about .section__pic-container {
     display: none;
   }
+
   footer p {
     margin-top: 1.5rem;
+    font-size: 12px;
   }
 
   .arrow__container {
@@ -181,18 +208,33 @@
     display: flex;
     justify-content: center;
   }
+
+  .form-container {
+    padding-top: 2rem;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -2rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   nav {
     display: none;
   }
+
   footer p {
     margin-bottom: 10vh;
   }
 
   #about .section__pic-container {
     display: none;
+  }
+
+  .form-container {
+    padding-top: 2rem;
   }
 }
 
@@ -203,6 +245,9 @@
   nav {
     display: none;
   }
+  .form-container {
+    padding-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -210,5 +255,9 @@
     position: relative;
     bottom: -7.5rem;
     padding-bottom: 10px;
+  }
+
+  .form-container {
+    padding-top: 2rem;
   }
 }
