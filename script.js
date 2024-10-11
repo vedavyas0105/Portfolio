@@ -13,7 +13,6 @@ const typed = new Typed(".multiple-text", {
   loop: true,
 });
 
-function sendEmail() {
-  document.submission__form.submit();
-  document.submission__form.reset();
+function resetForm() {
+  document.getElementById("submissionForm").reset();
 }

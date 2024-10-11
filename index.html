@@ -512,6 +512,7 @@
           action="https://formspree.io/f/xbljrney"
           method="POST"
           name="submission__form"
+          id="submissionForm"
         >
           <input
             type="text"
@@ -539,16 +540,11 @@
             name="message"
             rows="4"
           ></textarea>
-          <button type="submit" onclick="">Send Message</button>
+          <div class="button-container">
+            <button type="submit" id="button1">Send Message</button>
+            <button type="submit" onclick="resetForm()">Reset Form</button>
+          </div>
         </form>
-      </div>
-      <div class="arrow__container">
-        <img
-          src="./assets/1110959_arrow_double_essential_set_up_icon.png"
-          alt="home arrow"
-          class="home__arrow"
-          onclick="location.href='.#home-nav'"
-        />
       </div>
     </section>
     <footer>
@@ -566,8 +562,8 @@
         Rights Reserved
       </p>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
