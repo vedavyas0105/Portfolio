@@ -624,3 +624,56 @@ form textarea {
   box-shadow: 5px 5px 10px #555;
   /* filter: drop-shadow(5px 5px 10px #555); */
 }
+
+/* SCROLL BAR SECTION */
+
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: rgb(143, 135, 209);
+}
+
+#scrollpath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5px;
+  background: rgb(143, 135, 209);
+  animation: animate 5s linear infinite;
+  /* border-radius: 10px; */
+}
+
+#progressbar::before,
+#progressbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(143, 135, 209);
+  filter: blur(10px);
+}
+
+#progressbar::after {
+  filter: blur(10px);
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* SCROLL BAR SECTION ENDS */

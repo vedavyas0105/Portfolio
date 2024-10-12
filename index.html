@@ -79,8 +79,12 @@
         </div>
       </div>
     </nav>
+    <!--SCROLL BAR-->
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <div id="percent"></div>
+    <!--SCROLL BAR END-->
     <section id="profile">
-      <!-- <div class="main-heading">Portfolio</div> -->
       <div class="section__pic-container">
         <img
           src="./assets/pixelcut-export.png"
@@ -566,6 +570,17 @@
     </footer>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript">
+      var progressbar = document.getElementById("progressbar");
+      var percent = document.getElementById("percent");
+
+      var totalHeight = document.body.scrollHeight - window.innerHeight;
+
+      window.onscroll = function () {
+        var progress = (window.pageYOffset / totalHeight) * 100;
+        progressbar.style.height = progress + "%";
+      };
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
