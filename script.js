@@ -13,9 +13,9 @@ const typed = new Typed(".multiple-text", {
   loop: true,
 });
 
-function resetForm() {
-  document.getElementById("submissionForm").reset();
-}
+// function resetForm() {
+//   document.getElementById("submissionForm").reset();
+// }
 
 function validateInput() {
   let inputField = document.getElementById("name");
