@@ -699,3 +699,12 @@ form textarea {
     transform: translateX(0);
   }
 }
+
+/* RIPPLE EFFECT FOR BUTTON */
+
+/* .button-effect-1 {
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.button-effect-1 > span {
+} */

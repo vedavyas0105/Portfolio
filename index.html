@@ -112,7 +112,7 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+          <button class="btn btn-color-1" onclick="location.href='./#Contact2'">
             Contact Info
           </button>
         </div>
@@ -545,7 +545,12 @@
             rows="4"
           ></textarea>
           <div class="button-container">
-            <button type="submit" id="button1" onclick="validateInput()">
+            <button
+              type="submit"
+              id="button1"
+              onclick="validateInput()"
+              class="button-effect-1"
+            >
               Send Message
             </button>
             <button type="submit" onclick="resetForm()" id="button2">
@@ -583,6 +588,16 @@
         progressbar.style.height = progress + "%";
       };
     </script>
+    <!-- <script>
+      const buttons = document.getElementById("button1");
+      buttons.forEach((button) => {
+        button.onclick = function (e) {
+          let x = e.clientX - e.target.offsetLeft;
+          let y = e.clientY - e.target.offsetTop;
+          let ripple = document.createElement("span");
+        };
+      });
+    </script> -->
     <script src="script.js"></script>
   </body>
 </html>
