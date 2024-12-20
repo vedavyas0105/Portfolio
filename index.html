@@ -6,10 +6,6 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
@@ -552,32 +548,18 @@
             <button
               type="submit"
               id="button1"
-              onclick="validateInput(); clearForm(); showToast()"
+              onclick="validateInput()"
               class="button-effect-1"
             >
               Send Message
             </button>
-            <!-- <button type="submit" onclick="resetForm()" id="button2">
+            <button type="submit" onclick="resetForm()" id="button2">
               Reset Form
-            </button> -->
+            </button>
           </div>
         </form>
       </div>
     </section>
-    <!-- toast container -->
-    <!-- <div class="toast-container"></div> -->
-    <div class="wrapper">
-      <div id="toast">
-        <div class="container-1">
-          <i class="fa-solid fa-check"></i>
-        </div>
-        <div class="container-2">
-          <p>Your form is submitted succesfully</p>
-        </div>
-        <button id="close">&times;</button>
-      </div>
-    </div>
-    <!-- toast-container ends -->
     <footer>
       <nav>
         <div class="nav-links content-container">

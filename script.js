@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Engineer", "Machine Learning", "Data Science", "Python"],
+  strings: ["Engineer", "ML Enthusiast", "Developer"],
   typeSpeed: 75,
   backSpeed: 75,
   backDelay: 600,
@@ -37,36 +37,4 @@ function validateInput() {
       emailfield.classList.remove("shake");
     }, 500);
   }
-}
-
-// CLEARING THE INPUTS AFTER SUBMISSION
-
-// let btnclear = document.querySelector("button");
-// let inputs = document.querySelector("input");
-
-// btnclear.addEventListener("click", () => {
-//   inputs.forEach((input) => (input.value = ""));
-// });
-
-// function clearValue() {
-//   document.getElementById("name").value = "";
-//   document.getElementById("email").value = "";
-//   document.getElementById("phone").value = "";
-//   document.getElementById("message").value = "";
-// }
-
-// const clearForm = () => {
-//   document.getElementById("submissionForm").reset();
-// };
-
-// TOAST CONTAINER
-
-let x;
-let toast = document.getElementById("toast");
-function showToast() {
-  clearTimeout(x);
-  toast.style.trasnform = "translateX(0)";
-  x = setTimeout(() => {
-    toast.style.trasnform = "translateX(540px)";
-  }, 3000);
 }
